@@ -1,0 +1,83 @@
+/* body样式 */
+body {
+    font-family: Arial;
+    background-color:#f6d2c9;
+    margin: 0px;
+    color: #ea695f;
+}
+ /* 导航区 */
+nav {
+    background-color: #ea695f;
+    height: 60px;
+    line-height: 60px;
+}
+nav li{
+    margin-left: 15px ;
+    display: inline;
+}
+nav li a:link,nav li a:visited{
+    color:white;
+    border-bottom: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 200%;
+}
+/* 第一部分 */
+#huahua{
+    line-height: 50px;
+    background-color: #d9e6f2;
+    border: 5px solid #ea695f;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px;
+    margin-right: 200px;
+}
+/* 第二部分 */
+#shougong{
+    line-height: 50px;
+    background-color: #d9e6f2;
+    border: 5px solid #ea695f;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px;
+    margin-left: 200px;
+}
+/* 第三部分,设置大边框 */
+div#show{
+    line-height: 50px;
+    background-color: #d9e6f2;
+    border: 5px solid #ea695f;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px;
+    
+}
+/* 设置内部内容图片区 */
+div#show #photo{
+    width: 800px;
+    height: 200px;
+}
+div#show #photo img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 0px 30px;
+}
+/* 设置右边介绍 */
+div#show #intro{
+    
+    text-align: right;
+    font-size: 120%;
+}
+/* 页脚区 */
+footer{
+    background-color: #ea695f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    font-size: 90%;
+}

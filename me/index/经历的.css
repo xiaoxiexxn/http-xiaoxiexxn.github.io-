@@ -1,0 +1,102 @@
+/* body样式 */
+body {
+    font-family: sans-serif;
+    background-color:#f6d2c9;
+    margin: 0px;
+}
+ /* 导航区 */
+nav {
+    background-color: #ea695f;
+    height: 60px;
+    line-height: 60px;
+}
+nav li{
+    margin-left: 15px ;
+    display: inline;
+}
+nav li a:link,nav li a:visited{
+    color:white;
+    border-bottom: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* 标题 */
+header{
+    background-color: #d9e6f2;
+    margin: 10px 10px 0px 10px;
+    height: 108px;
+}
+/* 标题图片 */
+header img{
+    float: left;/*标题图片设置靠左*/
+    height: 108px;
+    margin-left: 30px;
+}
+/* 标题文字 */
+header p{
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #ea695f;
+    font-size: 15px;
+    text-align: right;/*文字设置靠右*/
+}
+header #p1{
+    padding-top: 15px;/*设置第一行字与上端的距离*/
+}
+/* 内容区 */
+div#tableContainer{
+    display: table;/*将内容区的三个部分设置称类似于块级表格来显示*/
+    border-spacing: 10px;
+}
+div#tableRow{
+    display: table-row;
+}
+/* 左边框设置小学 */
+section#primaryS{
+    font-size: 110%;
+    color: #ea695f;
+    display: table-cell;
+    background-color: #d9e6f2;
+    width: 35%;
+    padding: 15px;
+    vertical-align: top;
+}
+/* 中间设置初中 */
+section#juniorHS {
+    color: #ea695f;
+    display: table-cell;
+    background: #d9e6f2 top left;
+    font-size: 110%;
+    padding: 15px;
+    vertical-align: top;
+}
+/* 右边设置高中 */
+section#highS{
+    color: #ea695f;
+    display: table-cell;
+    background: #d9e6f2 bottom right;
+    width: 35%;
+    font-size: 110%;
+    padding: 15px;
+    vertical-align: top;
+}
+/* 设置三个框内的图片大小 */
+section img{
+    width: 300px;
+    height: 200px;
+}
+/* 单独设置中间框内的第二张图片 */
+section#juniorHS #img1{
+    width: 210px;
+    height: 220px;
+}
+
+/* 页脚区 */
+footer{
+    background-color: #ea695f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    font-size: 90%;
+}
